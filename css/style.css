@@ -251,11 +251,9 @@
     background-color: var(--pureRed);
     border-color: var(--pureRed);
     content: "\2713";
-    /* Unicode checkmark character */
     color: var(--pureWhite);
     text-align: center;
     line-height: 14px;
-    /* Align the checkmark vertically */
 }
 
 #popupForm button {
@@ -283,7 +281,6 @@
 .service-para p {
     width: 442px;
     height: 110px;
-    /* UI Properties */
     font-size: 45px;
     font-weight: 600;
     text-align: left;
@@ -629,21 +626,6 @@
     padding: 2px;
     width: 36.7px;
 }
-
-/* .growth-section .stats .nopath {
-    color: #FF3147;
-    font-size: 1.4rem;
-    font-weight: lighter;
-    transform: rotate(-1deg) translate(-25px, -44px);
-    position: absolute;
-}
-
-.growth-section .stats .nopathsec {
-    width: 1.4rem;
-    height: 8px;
-    transform: rotate(46deg) translate(-15px, 34px);
-    position: absolute;
-} */
 
 .growth-section .stats h1 {
     margin-top: 6px;

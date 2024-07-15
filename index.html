@@ -227,9 +227,6 @@
                             </div>
                             <div class="stats position-relative">
                                 <img src="assets/growth/Path.png" alt="">
-                                <!-- <p class="nopath">✔️</p> -->
-                                <!-- <img class="nopath" src="assets/growth/NoPath.png" alt="">
-                                <img class="nopathsec" src="assets/growth/NoPath.png" alt=""> -->
                                 <h1>283+</h1>
                                 <p>Complete Project</p>
                             </div>
@@ -273,19 +270,6 @@
     </div>
     </div>
     <script>
-        // function changeImage(newSrc, element) {
-
-        //     document.querySelector('.mainImage').src = newSrc;
-
-        //     var textBlocks = document.querySelectorAll('.text-block');
-        //     textBlocks.forEach(function (block) {
-        //         block.classList.remove('active');
-        //         block.classList.remove('highlight')
-        //     });
-
-        //     element.classList.add('active');
-        // }
-
         const images = ['assets/image.png', 'assets/image2.png', 'assets/image3.png'];
         const textBlocks = document.querySelectorAll('.text-block');
         let currentIndex = 0;
@@ -321,47 +305,6 @@
         // Change image every 3 seconds
         setInterval(autoChangeImage, 3000);
     </script>
-    <!-- <script>
-        $(document).ready(function () {
-            const images = ['assets/image.png', 'assets/image2.png', 'assets/image3.png'];
-            let currentIndex = 0;
-
-            function changeImage(newSrc, element) {
-                // Change the image source
-                $('.mainImage').attr('src', newSrc);
-
-                // Remove the active class from all text blocks
-                $('.text-block').removeClass('active');
-
-
-                // Add the active class to the clicked text block
-                $(element).addClass('active');
-            }
-
-            function autoChangeImage() {
-                // Change the image source
-                $('.mainImage').attr('src', images[currentIndex]);
-
-                // Remove the active class from all text blocks
-                $('.text-block').removeClass('active');
-                $('.text-block').removeClass('highlight')
-                // Add the active class to the current text block
-                $('.text-block').eq(currentIndex).addClass('active');
-
-                // Update the index for the next image
-                currentIndex = (currentIndex + 1) % images.length;
-            }
-
-            // Set click event for text blocks
-            $('.text-block').click(function () {
-                const newSrc = $(this).data('image');
-                changeImage(newSrc, this);
-            });
-
-            // Change image every 3 seconds
-            setInterval(autoChangeImage, 3000);
-        });
-    </script> -->
     <script src="js/main.js"></script>
 </body>
 
