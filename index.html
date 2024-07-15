@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="container text-center hero-section">
+            <div class="row ">
+                <!-- coloum 1 -->
+                <div class="col text-start d-flex flex-column justify-content-center hero-text row-gap-4 ">
+                    <p>Award winning</p>
+                    <h1>Digital Marketing Agency</h1>
+                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit
+                        fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+
+                    <button class="p-2 d-flex justify-content-center align-items-center contact-us-btn">CONTACT
+                        US</button>
+
+                </div>
+                <!-- coloum 2 -->
+                <div class="col" id="hero-image">
+                    <img src="assets/hero.png" alt="Hero Image" width="400" />
+                </div>
+            </div>
+        </div>
+        <!-- Popup Form -->
+        <div class="overlay" id="overlay"></div>
+        <div class="popup-form" id="popupForm">
+            <form action="https://getform.io/f/blljyoyb" method="POST">
+                <h2>Talk to us</h2>
+                <div class="d-flex flex-column gap-1">
+                    <div class="input-box ">
+                        <input type="email" name="email" required>
+                        <label>Work email*</label>
+                    </div>
+
+                    <div class="d-flex gap-4">
+                        <div class="input-box">
+                            <input type="text" name="first-name" required>
+                            <label>First name*</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="text" name="last-name" required>
+                            <label>Last name*</label>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="termsCheckbox" name="termsCheckbox" required>
+                    <label for="termsCheckbox">I agree to Fyle's terms and conditions, and provide consent to send me
+                        communication.</label>
+                </div>
+
+                <button type="submit">Contact Us</button>
+            </form>
+        </div>
+        <div class="grid-section">
+            <div class="container text-center">
+                <div class="row mid-section">
+                    <p class="section-red-para">WHAT WE DO</p>
+                    <div class="row ">
+                        <!-- coloum 1 -->
+                        <div class="col service-para">
+                            <p>Services provide for you</p>
+                        </div>
+                        <!-- coloum 2 -->
+                        <div class="col desc d-flex justify-content-center align-items-center">
+                            <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at
+                                elit
+                                fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+                        </div>
+                    </div>
+                    <div class="slider-container">
+                        <div class="slider">
+                            <div class="card">
+                                <div class="img"><img src="assets/1.png" alt="img" draggable="false"></div>
+                                <div class="layer">
+                                    <img src="assets/icons/code-icon.png" alt="">
+                                    <h3>WEB DEVELOPMENT</h3>
+                                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                                    <a class="btn" target="_blank" href="https://www.fylehq.com/"
+                                        previewlistener="true">READ
+                                        MORE <img class="arrow" src="assets/icons/right-arrow.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img"><img src="assets/2.png" alt="img" draggable="false"></div>
+                                <div class="layer">
+                                    <img src="assets/icons/code-icon.png" alt="">
+                                    <h3>WEB DEVELOPMENT</h3>
+                                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                                    <a class="btn" target="_blank" href="https://www.fylehq.com/"
+                                        previewlistener="true">READ
+                                        MORE <img class="arrow" src="assets/icons/right-arrow.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img"><img src="assets/3.png" alt="img" draggable="false"></div>
+                                <div class="layer">
+                                    <img src="assets/icons/code-icon.png" alt="">
+                                    <h3>WEB DEVELOPMENT</h3>
+                                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                                    <a class="btn" target="_blank" href="https://www.fylehq.com/"
+                                        previewlistener="true">READ
+                                        MORE <img class="arrow" src="assets/icons/right-arrow.png" alt=""></a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img"><img src="assets/1.png" alt="img" draggable="false"></div>
+                                <div class="layer">
+                                    <img src="assets/icons/code-icon.png" alt="">
+                                    <h3>WEB DEVELOPMENT</h3>
+                                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                                    <a class="btn" target="_blank" href="https://www.fylehq.com/"
+                                        previewlistener="true">READ
+                                        MORE <img class="arrow" src="assets/icons/right-arrow.png" alt=""> </a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img"><img src="assets/2.png" alt="img" draggable="false"></div>
+                                <div class="layer">
+                                    <img src="assets/icons/code-icon.png" alt="">
+                                    <h3>WEB DEVELOPMENT</h3>
+                                    <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                                    <a class="btn" target="_blank" href="https://www.fylehq.com/"
+                                        previewlistener="true">READ
+                                        MORE <img class="arrow" src="assets/icons/right-arrow.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dot-container">
+                        <div class="dot red-dot" data-slide="0"></div>
+                        <div class="dot black-dot" data-slide="1"></div>
+                        <div class="dot black-dot" data-slide="2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center ">
+            <div class="stats-section">
+                <p class="stats-red-para">WHAT WE DO</p>
+                <p class="stats-heading">Why We Are Best</p>
+                <div class="stats mx-auto d-flex justify-content-center gap-2">
+                    <div class="aim-col d-flex flex-column gap-2">
+                        <img src="assets/stats/aim.png" alt="">
+                        <p class="heading mt-3">Clarified Vision & Target</p>
+                        <p class="des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, id alias!
+                        </p>
+                    </div>
+                    <div class="performance-col d-flex flex-column gap-2">
+                        <img src="assets/stats/performance.png" alt="">
+                        <p class="heading mt-4">High Performance</p>
+                        <p class="des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, id alias!
+                        </p>
+                    </div>
+                    <div class="about-col-3 d-flex flex-column gap-2 ">
+                        <img src="assets/stats/security.png" alt="">
+                        <p class="heading mt-2">Maintain Security</p>
+                        <p class="des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, id alias!
+                        </p>
+                    </div>
+                    <div class="about-col-4 d-flex flex-column gap-2">
+                        <img src="assets/stats/drive.png" alt="">
+                        <p class="heading mt-3 ">Better Strategy & Quality</p>
+                        <p class="des">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, id alias!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center ">
+            <div class="project-section">
+                <p class="project-red-para">Our project</p>
+                <p class="project-heading">Why We Are Best</p>
+            </div>
+            <div class="content">
+                <div class="image-container">
+                    <img class="img mainImage" src="assets/image3.png" alt="Fruits on a table">
+                </div>
+                <div class="text-container">
+                    <div class="text-block border" onclick="changeImage('assets/image.png',this)">
+                        <h3>Genderless Kei – Japan’s Hot</h3>
+                        <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+                    </div>
+                    <div class="text-block highlight" onclick="changeImage('assets/image2.png',this)">
+                        <h3>Better Strategy & Quality</h3>
+                        <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+                    </div>
+                    <div class="text-block" onclick="changeImage('assets/image3.png',this)">
+                        <h3>Genderless Kei – Japan’s Hot</h3>
+                        <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="experts-section">
+            <div class="container text-center ">
+                <div class="growth-section">
+                    <p class="growth-red-para">Experts growts</p>
+                    <p class="growth-heading">Our Company Growth</p>
+                    <div class="row ">
+                        <div class="d-flex gap-4">
+                            <div class="stats">
+                                <img src="assets/growth/heart.png" alt="">
+                                <h1>199+</h1>
+                                <p>Satisfied Customers</p>
+                            </div>
+                            <div class="stats">
+                                <img src="assets/growth/clock.png" alt="">
+                                <h1>1591+</h1>
+                                <p>Days Of Operation</p>
+                            </div>
+                            <div class="stats position-relative">
+                                <img src="assets/growth/Path.png" alt="">
+                                <!-- <p class="nopath">✔️</p> -->
+                                <!-- <img class="nopath" src="assets/growth/NoPath.png" alt="">
+                                <img class="nopathsec" src="assets/growth/NoPath.png" alt=""> -->
+                                <h1>283+</h1>
+                                <p>Complete Project</p>
+                            </div>
+                            <div class="stats">
+                                <img src="assets/growth/trophi.png" alt="">
+                                <h1>75+</h1>
+                                <p>Win Awards</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <div class="feedback-section">
+                <p class="feedback-red-para">CLIENT'S FEEDBACK</p>
+                <h1 class="feedback-heading text-center">PEOPLE SAY'S ABOUT US !</h1>
+                <div class="feed-parent d-flex flex-column align-items-center justify-content-center position-relative">
+
+                    <img class="position-absolute" src="assets/Quotemarks.png" alt="quotes" />
+
+                    <div class="feedbacks">
+                        <p>Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is <br>reproduced below
+                            for
+                            those interested. Sections Bonorum at Malorum Original.
+                        </p>
+                    </div>
+                    <p class="color-para"><span class="red-para">JANNAT TUMPA</span><span> - COO, AMERIMAR ENTERPRISES,
+                            INC.</span></p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <img src="assets/footer.png" alt="">
+        </div>
+
+    </div>
+    </div>
+    </div>
+    <script>
+        // function changeImage(newSrc, element) {
+
+        //     document.querySelector('.mainImage').src = newSrc;
+
+        //     var textBlocks = document.querySelectorAll('.text-block');
+        //     textBlocks.forEach(function (block) {
+        //         block.classList.remove('active');
+        //         block.classList.remove('highlight')
+        //     });
+
+        //     element.classList.add('active');
+        // }
+
+        const images = ['assets/image.png', 'assets/image2.png', 'assets/image3.png'];
+        const textBlocks = document.querySelectorAll('.text-block');
+        let currentIndex = 0;
+
+        function changeImage(newSrc, element) {
+            // Change the image source
+            document.querySelector('.mainImage').src = newSrc;
+
+            // Remove the active class from all text blocks
+            textBlocks.forEach(block => block.classList.remove('active'));
+
+            // Add the active class to the clicked text block
+            element.classList.add('active');
+        }
+
+        function autoChangeImage() {
+            // Change the image source
+            document.querySelector('.mainImage').src = images[currentIndex];
+
+            // Remove the active class from all text blocks
+            textBlocks.forEach(function (block) {
+                block.classList.remove('active');
+                block.classList.remove('highlight')
+            });
+
+            // Add the active class to the current text block
+            textBlocks[currentIndex].classList.add('active');
+
+            // Update the index for the next image
+            currentIndex = (currentIndex + 1) % images.length;
+        }
+
+        // Change image every 3 seconds
+        setInterval(autoChangeImage, 3000);
+    </script>
+    <!-- <script>
+        $(document).ready(function () {
+            const images = ['assets/image.png', 'assets/image2.png', 'assets/image3.png'];
+            let currentIndex = 0;
+
+            function changeImage(newSrc, element) {
+                // Change the image source
+                $('.mainImage').attr('src', newSrc);
+
+                // Remove the active class from all text blocks
+                $('.text-block').removeClass('active');
+
+
+                // Add the active class to the clicked text block
+                $(element).addClass('active');
+            }
+
+            function autoChangeImage() {
+                // Change the image source
+                $('.mainImage').attr('src', images[currentIndex]);
+
+                // Remove the active class from all text blocks
+                $('.text-block').removeClass('active');
+                $('.text-block').removeClass('highlight')
+                // Add the active class to the current text block
+                $('.text-block').eq(currentIndex).addClass('active');
+
+                // Update the index for the next image
+                currentIndex = (currentIndex + 1) % images.length;
+            }
+
+            // Set click event for text blocks
+            $('.text-block').click(function () {
+                const newSrc = $(this).data('image');
+                changeImage(newSrc, this);
+            });
+
+            // Change image every 3 seconds
+            setInterval(autoChangeImage, 3000);
+        });
+    </script> -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
